@@ -1,0 +1,10 @@
+server {
+listen 80 ;
+listen [::]:80;
+root /var/www/html/admin/one-page-website-html-css-project;
+index index.html;
+server_name 54.227.139.149;
+location / {
+try_files $uri $uri/ =404;
+}
+}
