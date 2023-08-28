@@ -3,7 +3,7 @@ listen 80 ;
 listen [::]:80;
 root /var/www/html/admin2/ecommerce-website-html-css;
 index index.html;
-server_name 54.227.139.149;
+server_name 34.238.127.169;
 location / {
 try_files $uri $uri/ =404;
 }
